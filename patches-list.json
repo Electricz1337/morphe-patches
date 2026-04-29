@@ -1,114 +1,285 @@
 {
-  "version": "2.5.0",
+  "version": "v2.5.0",
   "patches": [
     {
       "name": "Bypass signature check",
       "description": null,
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Disable Reels scrolling",
       "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Disable story auto flipping",
       "description": "Disable stories automatically flipping/skipping after some seconds.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Disable video autoplay",
       "description": "Disable video autoplay from feed",
-      "use": false,
+      "default": false,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Hide Stories from Home",
       "description": "Hides Stories from the main page, by removing the buttons.",
-      "use": false,
+      "default": false,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Hide ads",
       "description": null,
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Hide explore feed",
       "description": "Hides posts and reels from the explore/search page.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Hide feed content",
       "description": "Hide the feed content, leaving only stories in the home page.",
-      "use": false,
+      "default": false,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Hide navigation buttons",
       "description": "Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options.",
-      "use": true,
+      "default": true,
       "dependencies": [
         "BytecodePatch"
       ],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": [
         {
           "key": "hideHome",
@@ -169,111 +340,258 @@
     {
       "name": "Hide notes tray",
       "description": "Hides the notes tray from the direct tab.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Hide reshare button",
       "description": "Hides the reshare button from both posts and reels.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Hide suggested content",
       "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Limit feed to following profiles",
       "description": "Filters the home feed to display only content from profiles you follow.",
-      "use": true,
+      "default": true,
       "dependencies": [
         "BytecodePatch"
       ],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Remove build expired popup",
       "description": "Removes the popup that appears after a while, when the app version ages.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "com.instagram.android": [
-          "424.0.0.49.64"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Unlock Premium features",
       "description": "Unlock Premium features. You have to be logged in with an account.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "fr.chargeprice.app": [
-          "3.9.2"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "fr.chargeprice.app",
+          "name": "Chargeprice",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#007AFF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.9.2",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Unlock Premium features",
       "description": "Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "de.komoot.android": [
-          "2025.38.2"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "de.komoot.android",
+          "name": "Komoot",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#ECEBB4",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2025.38.2",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Unlock Pro features",
       "description": "Unlock Pro features (park4night +). You have to be logged in with an account.",
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "fr.tramb.park4night": [
-          "7.1.11"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "fr.tramb.park4night",
+          "name": "park4night",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#FFFFFF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "7.1.11",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
       "name": "Unlock premium features",
       "description": null,
-      "use": true,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": {
-        "cz.seznam.mapy": [
-          "26.3.1"
-        ]
-      },
+      "compatiblePackages": [
+        {
+          "packageName": "cz.seznam.mapy",
+          "name": "Mapy.com",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#32CF11",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.3.1",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     }
   ]

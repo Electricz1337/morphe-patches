@@ -5,15 +5,99 @@
 
 This repository contains patches I made for some apps I care about.
 
+## ⚙️ Patch Details
 
-| App            | Package                            | Patches                                   |
-|----------------|------------------------------------|-------------------------------------------|
-| Instagram      | `com.instagram.android`            | <ul><li>Hide Ads</li></ul><ul><li>Hide suggested content</li></ul><ul><li>Limit feed to following profiles</li></ul><ul><li>Hide navigation buttons</li></ul><ul><li>Hide explore feed</li></ul><ul><li>Disable reels scrolling</li></ul><ul><li>Hide stories from home</li></ul><ul><li>Hide reshare/repost button</li></ul><ul><li>Hide feed content</li></ul><ul><li>Disable story auto flipping</li></ul><ul><li>Hide notes tray</li></ul>|
-| Chargeprice    | `fr.chargeprice.app`               | <ul><li>Unlock Premium features</li></ul> |
-| Komoot         | `de.komoot.android`                | <ul><li>Unlock Premium features</li></ul> |
-| Mapy           | `cz.seznam.mapy`                   | <ul><li>Unlock Premium features</li></ul> |
-| Park4night     | `fr.tramb.park4night`              | <ul><li>Unlock Pro features</li></ul>     |
+<!-- PATCHES_START -->
+> **[v2.5.0](https://github.com/brosssh/morphe-patches/releases/tag/v2.5.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
+<details>
+<summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;14 patches</summary>
+<br>
 
+**🎯 Supported versions:**
+
+| 🧪&nbsp;425.0.0.47.61 | 424.0.0.49.64 |
+| :---: | :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Bypass signature check](#bypass-signature-check) | None |  |
+| [Disable Reels scrolling](#disable-reels-scrolling) | Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds. |  |
+| [Disable story auto flipping](#disable-story-auto-flipping) | Disable stories automatically flipping/skipping after some seconds. |  |
+| [Disable video autoplay](#disable-video-autoplay) | Disable video autoplay from feed |  |
+| [Hide Stories from Home](#hide-stories-from-home) | Hides Stories from the main page, by removing the buttons. |  |
+| [Hide ads](#hide-ads) | None |  |
+| [Hide explore feed](#hide-explore-feed) | Hides posts and reels from the explore/search page. |  |
+| [Hide feed content](#hide-feed-content) | Hide the feed content, leaving only stories in the home page. |  |
+| [Hide navigation buttons](#hide-navigation-buttons) | Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options. | • Hide Home<br>• Hide Reels<br>• Hide Direct<br>• Hide Search<br>• Hide Profile<br>• Hide Create |
+| [Hide notes tray](#hide-notes-tray) | Hides the notes tray from the direct tab. |  |
+| [Hide reshare button](#hide-reshare-button) | Hides the reshare button from both posts and reels. |  |
+| [Hide suggested content](#hide-suggested-content) | Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown). |  |
+| [Limit feed to following profiles](#limit-feed-to-following-profiles) | Filters the home feed to display only content from profiles you follow. |  |
+| [Remove build expired popup](#remove-build-expired-popup) | Removes the popup that appears after a while, when the app version ages. |  |
+
+</details>
+
+<details>
+<summary>📦 Chargeprice&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 3.9.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Premium features](#unlock-premium-features) | Unlock Premium features. You have to be logged in with an account. |  |
+
+</details>
+
+<details>
+<summary>📦 Komoot&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2025.38.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Premium features](#unlock-premium-features) | Unlock Premium features. Some features are not possible to patch (server sided), such as saving a multi-days hike. |  |
+
+</details>
+
+<details>
+<summary>📦 park4night&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 7.1.11 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Pro features](#unlock-pro-features) | Unlock Pro features (park4night +). You have to be logged in with an account. |  |
+
+</details>
+
+<details>
+<summary>📦 Mapy.com&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 26.3.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock premium features](#unlock-premium-features) | None |  |
+
+</details>
+
+<!-- PATCHES_END -->
 
 ## How to use
 Install Morphe manager from [their website](https://morphe.software/), then simply click on this link to install my patches in the Morphe manager:
