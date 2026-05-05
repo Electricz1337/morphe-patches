@@ -1,3 +1,10 @@
+# [2.6.0-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.5.0...v2.6.0-dev.1) (2026-05-05)
+
+
+### Features
+
+* **Instagram:** Add `Hide Threads profile button` patch ([#148](https://github.com/brosssh/morphe-patches/issues/148)) ([304eaa6](https://github.com/brosssh/morphe-patches/commit/304eaa6fcbda9c7465e64fffff02999c10410d23))
+
 # [2.5.0](https://github.com/brosssh/morphe-patches/compare/v2.4.0...v2.5.0) (2026-04-21)
 
 

@@ -8,14 +8,14 @@ This repository contains patches I made for some apps I care about.
 ## ⚙️ Patch Details
 
 <!-- PATCHES_START -->
-> **[v2.5.0](https://github.com/brosssh/morphe-patches/releases/tag/v2.5.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
+> **[v2.6.0-dev.1](https://github.com/brosssh/morphe-patches/releases/tag/v2.6.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;19 patches total
 <details>
-<summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;14 patches</summary>
+<summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;15 patches</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 🧪&nbsp;425.0.0.47.61 | 424.0.0.49.64 |
+| 425.0.0.47.61 | 424.0.0.49.64 |
 | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -25,6 +25,8 @@ This repository contains patches I made for some apps I care about.
 | [Disable story auto flipping](#disable-story-auto-flipping) | Disable stories automatically flipping/skipping after some seconds. |  |
 | [Disable video autoplay](#disable-video-autoplay) | Disable video autoplay from feed |  |
 | [Hide Stories from Home](#hide-stories-from-home) | Hides Stories from the main page, by removing the buttons. |  |
+| [Hide Threads profile button](#hide-threads-profile-button) | Hides the Threads button from the profile page action bar (top right of the profile page).
+The target button position can be changed via the "Button index" option if needed. | • Button index |
 | [Hide ads](#hide-ads) | None |  |
 | [Hide explore feed](#hide-explore-feed) | Hides posts and reels from the explore/search page. |  |
 | [Hide feed content](#hide-feed-content) | Hide the feed content, leaving only stories in the home page. |  |

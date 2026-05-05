@@ -1,5 +1,5 @@
 {
-  "version": "v2.5.0",
+  "version": "2.6.0-dev.1",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -17,7 +17,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -48,7 +48,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -79,7 +79,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -110,7 +110,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -141,7 +141,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -155,6 +155,47 @@
         }
       ],
       "options": []
+    },
+    {
+      "name": "Hide Threads profile button",
+      "description": "Hides the Threads button from the profile page action bar (top right of the profile page).\nThe target button position can be changed via the \"Button index\" option if needed.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "buttonIndex",
+          "title": "Button index",
+          "description": "Position of the button to hide from the profile page action bar (zero-based).\n\n0 = first button (default, targets the Threads button on most accounts).\n1 = second button.\n2 = third button.\n\nIf the Threads button does not disappear, try incrementing this value by 1.",
+          "required": true,
+          "type": "kotlin.Int",
+          "default": 0,
+          "values": null
+        }
+      ]
     },
     {
       "name": "Hide ads",
@@ -172,7 +213,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -203,7 +244,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -234,7 +275,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -267,7 +308,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -353,7 +394,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -384,7 +425,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -415,7 +456,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -448,7 +489,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
@@ -479,7 +520,7 @@
           "targets": [
             {
               "version": "425.0.0.47.61",
-              "isExperimental": true,
+              "isExperimental": false,
               "minSdk": null,
               "description": null
             },
