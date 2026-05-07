@@ -1,3 +1,18 @@
+# [2.6.0](https://github.com/brosssh/morphe-patches/compare/v2.5.0...v2.6.0) (2026-05-07)
+
+
+### Bug Fixes
+
+* **Instagram - Hide ads:** Force `use_v2_controller` off to hide all ads ([be64008](https://github.com/brosssh/morphe-patches/commit/be64008271d529d76d136f3ed9c0cbbd2aa25526))
+* **Instagram - Hide suggested content:** Hide search suggestions ([cfe0ae6](https://github.com/brosssh/morphe-patches/commit/cfe0ae66573431460e45309718c56f42f3c8a24e))
+
+
+### Features
+
+* **Instagram:** Add `Hide Instants` patch ([e7846f1](https://github.com/brosssh/morphe-patches/commit/e7846f1c22521688695ce0cda464e9a3d1d3a266))
+* **Instagram:** Add `Hide Reels save button` patch ([616b01d](https://github.com/brosssh/morphe-patches/commit/616b01d3c62496cea3e498907af6b372444a24f5))
+* **Instagram:** Add `Hide Threads profile button` patch ([#148](https://github.com/brosssh/morphe-patches/issues/148)) ([304eaa6](https://github.com/brosssh/morphe-patches/commit/304eaa6fcbda9c7465e64fffff02999c10410d23))
+
 # [2.6.0-dev.5](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.4...v2.6.0-dev.5) (2026-05-07)
 
 
