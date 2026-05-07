@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0-dev.1",
+  "version": "2.6.0-dev.2",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -201,7 +201,9 @@
       "name": "Hide ads",
       "description": null,
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.instagram.android",

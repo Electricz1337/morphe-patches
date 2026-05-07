@@ -1,3 +1,10 @@
+# [2.6.0-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.1...v2.6.0-dev.2) (2026-05-07)
+
+
+### Bug Fixes
+
+* **Instagram - Hide ads:** Force `use_v2_controller` off to hide all ads ([be64008](https://github.com/brosssh/morphe-patches/commit/be64008271d529d76d136f3ed9c0cbbd2aa25526))
+
 # [2.6.0-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.5.0...v2.6.0-dev.1) (2026-05-05)
 
 
