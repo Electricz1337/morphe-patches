@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-05-07T12:15:13",
-  "description": "# [2.6.0-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.1...v2.6.0-dev.2) (2026-05-07)\n\n\n### Bug Fixes\n\n* **Instagram - Hide ads:** Force `use_v2_controller` off to hide all ads ([be64008](https://github.com/brosssh/morphe-patches/commit/be64008271d529d76d136f3ed9c0cbbd2aa25526))",
-  "download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.6.0-dev.2/patches-2.6.0-dev.2.mpp",
-  "signature_download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.6.0-dev.2/patches-2.6.0-dev.2.mpp.asc",
-  "version": "2.6.0-dev.2"
+  "created_at": "2026-05-07T12:20:56",
+  "description": "# [2.6.0-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.2...v2.6.0-dev.3) (2026-05-07)\n\n\n### Features\n\n* **Instagram:** Add `Hide Reels save button` patch ([616b01d](https://github.com/brosssh/morphe-patches/commit/616b01d3c62496cea3e498907af6b372444a24f5))",
+  "download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.6.0-dev.3/patches-2.6.0-dev.3.mpp",
+  "signature_download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.6.0-dev.3/patches-2.6.0-dev.3.mpp.asc",
+  "version": "2.6.0-dev.3"
 }

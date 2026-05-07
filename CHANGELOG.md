@@ -1,3 +1,10 @@
+# [2.6.0-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.2...v2.6.0-dev.3) (2026-05-07)
+
+
+### Features
+
+* **Instagram:** Add `Hide Reels save button` patch ([616b01d](https://github.com/brosssh/morphe-patches/commit/616b01d3c62496cea3e498907af6b372444a24f5))
+
 # [2.6.0-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.1...v2.6.0-dev.2) (2026-05-07)
 
 
