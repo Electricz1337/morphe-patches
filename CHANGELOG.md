@@ -1,3 +1,10 @@
+# [2.6.0-dev.5](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.4...v2.6.0-dev.5) (2026-05-07)
+
+
+### Features
+
+* **Instagram:** Add `Hide Instants` patch ([e7846f1](https://github.com/brosssh/morphe-patches/commit/e7846f1c22521688695ce0cda464e9a3d1d3a266))
+
 # [2.6.0-dev.4](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.3...v2.6.0-dev.4) (2026-05-07)
 
 

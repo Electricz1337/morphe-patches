@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0-dev.4",
+  "version": "2.6.0-dev.5",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -97,6 +97,37 @@
     {
       "name": "Disable video autoplay",
       "description": "Disable video autoplay from feed",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "425.0.0.47.61",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "424.0.0.49.64",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Hide Instants",
+      "description": "Hides Instants from DMs page.",
       "default": false,
       "dependencies": [],
       "compatiblePackages": [
