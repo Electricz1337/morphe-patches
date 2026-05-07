@@ -1,3 +1,10 @@
+# [2.6.0-dev.4](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.3...v2.6.0-dev.4) (2026-05-07)
+
+
+### Bug Fixes
+
+* **Instagram - Hide suggested content:** Hide search suggestions ([cfe0ae6](https://github.com/brosssh/morphe-patches/commit/cfe0ae66573431460e45309718c56f42f3c8a24e))
+
 # [2.6.0-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.6.0-dev.2...v2.6.0-dev.3) (2026-05-07)
 
 

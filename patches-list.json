@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0-dev.3",
+  "version": "2.6.0-dev.4",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -471,7 +471,9 @@
       "name": "Hide suggested content",
       "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.instagram.android",
