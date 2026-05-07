@@ -3,6 +3,7 @@ package app.morphe.patches.instagram.patches.distractionFree
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.Constants.COMPATIBILITY_INSTAGRAM
+import app.morphe.patches.instagram.patches.misc.overrideMobileConfigBooleanFlag
 import app.morphe.patches.instagram.utility.replaceJsonFieldWithBogus
 
 private val FEED_ITEM_KEYS_TO_BE_HIDDEN = arrayOf(
@@ -32,6 +33,12 @@ val hideSuggestedContent = bytecodePatch(
     default = true
 ) {
     compatibleWith(COMPATIBILITY_INSTAGRAM)
+
+    dependsOn(
+        overrideMobileConfigBooleanFlag(
+            override = "111509::3" to false // ig_search_ta_nullstate_suggestions::is_android_enabled
+        )
+    )
 
     execute {
         val matchedMethod = FeedItemParseFromJsonFingerprint.method
