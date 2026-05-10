@@ -44,7 +44,7 @@ public final class OverrideMobileConfigBooleanFlagPatch {
 
         Boolean override = OVERRIDES.getOrDefault(configId, null);
         if (override != null) {
-            Logger.printInfo(() -> "Overriding flag " + configId + " -> " + override);
+            Logger.printInfo(() -> "Overriding flag " + configId + " -> " + override + ". Original config: " + mobileConfigSpecifier);
         }
 
         return override;
