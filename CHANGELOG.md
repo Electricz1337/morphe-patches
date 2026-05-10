@@ -1,3 +1,5 @@
+## [2.6.1-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.1-dev.1...v2.6.1-dev.2) (2026-05-10)
+
 ## [2.6.1-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.0...v2.6.1-dev.1) (2026-05-10)
 
 ### Updated App Support
