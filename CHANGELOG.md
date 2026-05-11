@@ -1,3 +1,13 @@
+## [2.6.1-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.6.1-dev.2...v2.6.1-dev.3) (2026-05-11)
+
+## [2.6.1-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.1-dev.1...v2.6.1-dev.2) (2026-05-10)
+
+## [2.6.1-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.0...v2.6.1-dev.1) (2026-05-10)
+
+### Updated App Support
+
+* **Instagram:** Add support for `426.0.0.37.68` ([30cc1ba](https://github.com/brosssh/morphe-patches/commit/30cc1ba73c0fcbeeb4417aca57aa2f1af085aaa4))
+
 # [2.6.0](https://github.com/brosssh/morphe-patches/compare/v2.5.0...v2.6.0) (2026-05-07)
 
 

@@ -17,7 +17,7 @@ private val hashedFieldInteger = "enable_media_notes_production".hashCode()
 
 private object FeedResponseMediaParserFingerprint : Fingerprint(
     classFingerprint = Fingerprint(
-        strings = listOf("array_out_of_bounds_exception", "null_pointer_exception", "MediaDict")
+        strings = listOf("Media:array_out_of_bounds_exception", "Media:null_pointer_exception")
     ),
     custom = { method, _ ->
         method.indexOfFirstInstruction {

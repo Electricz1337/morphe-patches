@@ -12,7 +12,12 @@ val hideInstantsPatch = bytecodePatch(
 ) {
     compatibleWith(COMPATIBILITY_INSTAGRAM)
 
-    overrideMobileConfigBooleanFlag(
-        override = "71567::9" to false // ig_studio_quick_snap_android::direct_variant_enabled
+    dependsOn(
+        overrideMobileConfigBooleanFlag(
+            override = "71567::9" to false // ig_studio_quick_snap_android::direct_variant_enabled
+        ),
+        overrideMobileConfigBooleanFlag(
+            override = "71567::42" to false // ig_studio_quick_snap_android::direct_variant_enabled_igid
+        )
     )
 }

@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1-dev.3",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -16,13 +16,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -47,13 +41,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -78,13 +66,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -109,13 +91,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -129,7 +105,10 @@
       "name": "Hide Instants",
       "description": "Hides Instants from DMs page.",
       "default": false,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch",
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.instagram.android",
@@ -140,13 +119,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -173,13 +146,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -204,13 +171,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -237,13 +198,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -270,13 +225,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -301,13 +250,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -332,13 +275,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -365,13 +302,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -451,13 +382,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -482,13 +407,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -515,13 +434,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -548,13 +461,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -579,13 +486,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "425.0.0.47.61",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "424.0.0.49.64",
+              "version": "426.0.0.37.68",
               "isExperimental": false,
               "minSdk": null,
               "description": null

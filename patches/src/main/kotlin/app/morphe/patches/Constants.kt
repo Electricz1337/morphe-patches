@@ -2,14 +2,20 @@ package app.morphe.patches
 
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
+import app.morphe.patcher.patch.SupportedAbi
 
 object Constants {
     val COMPATIBILITY_INSTAGRAM = Compatibility(
         name = "Instagram",
         packageName = "com.instagram.android",
         targets = listOf(
-            AppTarget(version = "425.0.0.47.61"),
-            AppTarget(version = "424.0.0.49.64")
+            AppTarget(
+                version = "426.0.0.37.68",
+                versionCodes = mapOf(
+                    SupportedAbi.ARM64_V8A to 383207244,
+                    SupportedAbi.ARMEABI_V7A to 383207247
+                )
+            )
         )
     )
 

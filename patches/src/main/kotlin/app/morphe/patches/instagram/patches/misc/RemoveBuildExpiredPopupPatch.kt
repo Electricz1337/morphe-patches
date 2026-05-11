@@ -7,7 +7,7 @@ import app.morphe.patches.Constants.COMPATIBILITY_INSTAGRAM
 
 object SnoozeExpirationManagerInitFingerprint : Fingerprint(
     Fingerprint(
-        strings = listOf("disabled_snooze_expiration_lockout_manager"),
+        strings = listOf("snooze_expiration_lockout_manager"),
         returnType = "Z"
     ),
     name = "<init>",
