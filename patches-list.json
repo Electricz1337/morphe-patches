@@ -1,5 +1,5 @@
 {
-  "version": "2.6.1-dev.2",
+  "version": "2.6.1-dev.3",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -105,7 +105,10 @@
       "name": "Hide Instants",
       "description": "Hides Instants from DMs page.",
       "default": false,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch",
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.instagram.android",
