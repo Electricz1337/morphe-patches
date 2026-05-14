@@ -1,3 +1,9 @@
+## [2.6.2-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.1...v2.6.2-dev.1) (2026-05-14)
+
+### :bug: Bug Fixes
+
+* **Instagram - Hide suggested content:** Hide suggested stories ([9159f2c](https://github.com/brosssh/morphe-patches/commit/9159f2c6ddd49d8237994d184f4a4f1feab72228))
+
 ## [2.6.1](https://github.com/brosssh/morphe-patches/compare/v2.6.0...v2.6.1) (2026-05-11)
 
 ### :rocket: Updated App Support

@@ -1,5 +1,5 @@
 {
-  "version": "2.6.1",
+  "version": "2.6.2-dev.1",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -422,6 +422,7 @@
       "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
