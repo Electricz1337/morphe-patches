@@ -25,10 +25,10 @@
           "presetConfig": {
             "types": [
               { "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },
-              { "type": "feat", "section": ":sparkles: New Features", "hidden": false },
+              { "type": "feat", "section": "✨ New Features", "hidden": false },
               { "type": "bump", "section": "🚀 Updated App Support", "hidden": false },
-              { "type": "ci", "section": ":repeat: CI", "hidden": false },
-              { "type": "perf", "section": ":fast_forward: Improvements",  "hidden": false }
+              { "type": "ci", "section": "🔁 CI", "hidden": false },
+              { "type": "perf", "section": "🔧 Improvements",  "hidden": false }
             ]
           }
         }
