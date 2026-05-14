@@ -1,3 +1,9 @@
+## [2.6.2-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.2-dev.1...v2.6.2-dev.2) (2026-05-14)
+
+### 🚀 Updated App Support
+
+* **Mapy:** Add support for `26.5.0` ([e91638c](https://github.com/brosssh/morphe-patches/commit/e91638c6e49d2fbaae7f3129b7879f6c903ecb76))
+
 ## [2.6.2-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.1...v2.6.2-dev.1) (2026-05-14)
 
 ### :bug: Bug Fixes
