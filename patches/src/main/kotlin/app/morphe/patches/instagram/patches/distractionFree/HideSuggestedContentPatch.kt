@@ -37,6 +37,9 @@ val hideSuggestedContent = bytecodePatch(
     dependsOn(
         overrideMobileConfigBooleanFlag(
             override = "111509::3" to false // ig_search_ta_nullstate_suggestions::is_android_enabled
+        ),
+        overrideMobileConfigBooleanFlag(
+            override = "82771::0" to false // igx_foundation_litho_stories_tray::is_litho_stories_tray_enabled
         )
     )
 
