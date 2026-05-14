@@ -37,7 +37,7 @@ object Constants {
         name = "Mapy.com",
         packageName = "cz.seznam.mapy",
         appIconColor = 0x32CF11,
-        targets = listOf(AppTarget(version = "26.3.1")),
+        targets = listOf(AppTarget(version = "26.5.0")),
     )
 
     val COMPATIBILITY_PARK4NIGHT = Compatibility(
