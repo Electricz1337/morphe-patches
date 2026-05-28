@@ -18,7 +18,7 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import com.android.tools.smali.dexlib2.iface.reference.StringReference
 import java.util.logging.Logger
 
-private const val STRING_DICTIONARY_CLASS = "LX/000;"
+private const val STRING_DICTIONARY_CLASS = "000;"
 private const val STRING_DICTIONARY_METHOD = "A00"
 
 data class JsonParserMatch(
