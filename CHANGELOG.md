@@ -1,3 +1,21 @@
+## [2.6.2-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.6.2-dev.2...v2.6.2-dev.3) (2026-05-28)
+
+### 🚀 Updated App Support
+
+* **Instagram:** Update support to `430.0.0.53.80` ([be345b4](https://github.com/brosssh/morphe-patches/commit/be345b4acae3c3f7e2b612d6051aa93a38b56463))
+
+## [2.6.2-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.2-dev.1...v2.6.2-dev.2) (2026-05-14)
+
+### 🚀 Updated App Support
+
+* **Mapy:** Add support for `26.5.0` ([e91638c](https://github.com/brosssh/morphe-patches/commit/e91638c6e49d2fbaae7f3129b7879f6c903ecb76))
+
+## [2.6.2-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.1...v2.6.2-dev.1) (2026-05-14)
+
+### :bug: Bug Fixes
+
+* **Instagram - Hide suggested content:** Hide suggested stories ([9159f2c](https://github.com/brosssh/morphe-patches/commit/9159f2c6ddd49d8237994d184f4a4f1feab72228))
+
 ## [2.6.1](https://github.com/brosssh/morphe-patches/compare/v2.6.0...v2.6.1) (2026-05-11)
 
 ### :rocket: Updated App Support

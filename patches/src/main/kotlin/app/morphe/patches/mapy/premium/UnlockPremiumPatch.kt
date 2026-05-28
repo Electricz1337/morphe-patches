@@ -1,13 +1,28 @@
 package app.morphe.patches.mapy.premium
 
+import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.Constants
 import app.morphe.util.indexOfFirstInstructionOrThrow
+import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
+
+private object UserInfoFromJsonFingerprint : Fingerprint (
+    name = "fromJson",
+    definingClass = "/UserInfo\$Companion;",
+    strings = listOf("premium")
+)
+
+private object FeaturesSyntheticInitFingerprint : Fingerprint (
+    name = "<init>",
+    definingClass = "/FeaturesApiModel;",
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.SYNTHETIC, AccessFlags.CONSTRUCTOR),
+    parameters = listOf("I", "Z", "Z", "Z", "I", "Z", "Z", "Z", "Z", "Ljava/lang/Integer;")
+)
 
 @Suppress("unused")
 val unlockPremiumPatch = bytecodePatch(

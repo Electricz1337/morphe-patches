@@ -10,10 +10,10 @@ object Constants {
         packageName = "com.instagram.android",
         targets = listOf(
             AppTarget(
-                version = "426.0.0.37.68",
+                version = "430.0.0.53.80",
                 versionCodes = mapOf(
-                    SupportedAbi.ARM64_V8A to 383207244,
-                    SupportedAbi.ARMEABI_V7A to 383207247
+                    SupportedAbi.ARM64_V8A to 383611190,
+                    SupportedAbi.ARMEABI_V7A to 383710475
                 )
             )
         )
@@ -37,7 +37,7 @@ object Constants {
         name = "Mapy.com",
         packageName = "cz.seznam.mapy",
         appIconColor = 0x32CF11,
-        targets = listOf(AppTarget(version = "26.3.1")),
+        targets = listOf(AppTarget(version = "26.5.0")),
     )
 
     val COMPATIBILITY_PARK4NIGHT = Compatibility(
