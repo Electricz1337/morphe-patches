@@ -1,3 +1,9 @@
+## [2.6.3](https://github.com/brosssh/morphe-patches/compare/v2.6.2...v2.6.3) (2026-06-03)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide reshare button:** Use correct fingerprint ([6a781ef](https://github.com/brosssh/morphe-patches/commit/6a781ef8e0951ad5aa898fa17d094cfbfa5dd9fb))
+
 ## [2.6.3-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.2...v2.6.3-dev.1) (2026-06-02)
 
 ### 🐛 Bug Fixes
