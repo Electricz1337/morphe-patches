@@ -15,7 +15,7 @@ private object FeedResponseMediaParserFingerprint : Fingerprint(
         literal(hashedFieldInteger),
         string("enable_media_notes_production"),
     ),
-    returnType = "V"
+    returnType = "Ljava/lang/Boolean;"
 )
 
 private object LiveTreeGetOptionalBooleanFingerprint : Fingerprint (
