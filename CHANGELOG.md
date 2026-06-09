@@ -1,3 +1,9 @@
+## [2.6.4-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.3...v2.6.4-dev.1) (2026-06-09)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide navigation buttons:** Clone the list to prevent crashes on tablets ([#167](https://github.com/brosssh/morphe-patches/issues/167)) ([27cc95b](https://github.com/brosssh/morphe-patches/commit/27cc95b04b162d0df3b5722542f9fd095f42fd9d))
+
 ## [2.6.3](https://github.com/brosssh/morphe-patches/compare/v2.6.2...v2.6.3) (2026-06-03)
 
 ### 🐛 Bug Fixes
