@@ -1,6 +1,8 @@
 package app.morphe.extension.instagram.hide.navigation;
 
 import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 @SuppressWarnings("unused")
@@ -19,15 +21,18 @@ public class HideNavigationButtonsPatch {
             String enumNameField
     )
             throws IllegalAccessException, NoSuchFieldException {
-        for (Object button : navigationButtonsList) {
+        List<Object> mutableList = new ArrayList<>(navigationButtonsList);
+
+        Iterator<Object> iterator = mutableList.iterator();
+        while (iterator.hasNext()) {
+            Object button = iterator.next();
             Field f = button.getClass().getDeclaredField(enumNameField);
             String currentButtonEnumName = (String) f.get(button);
-
             if (buttonNameToRemove.equals(currentButtonEnumName)) {
-                navigationButtonsList.remove(button);
+                iterator.remove();
                 break;
             }
         }
-        return navigationButtonsList;
+        return mutableList;
     }
 }
