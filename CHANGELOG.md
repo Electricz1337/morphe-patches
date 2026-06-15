@@ -1,3 +1,9 @@
+## [2.6.4-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.4-dev.1...v2.6.4-dev.2) (2026-06-15)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Disable Reels scrolling:** Hide the "auto scroll" option from 3 dots menu in reels ([0943542](https://github.com/brosssh/morphe-patches/commit/0943542ad54a246657f998985df6a181d28b735f))
+
 ## [2.6.4-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.3...v2.6.4-dev.1) (2026-06-09)
 
 ### 🐛 Bug Fixes
