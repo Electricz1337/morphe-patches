@@ -1,3 +1,9 @@
+## [2.7.0-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.4-dev.2...v2.7.0-dev.1) (2026-06-15)
+
+### ✨ New Features
+
+* **Instagram:** Add `Clone` patch ([74348b6](https://github.com/brosssh/morphe-patches/commit/74348b63c941a7652040cd75880a9bdc23e0e85b))
+
 ## [2.6.4-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.4-dev.1...v2.6.4-dev.2) (2026-06-15)
 
 ### 🐛 Bug Fixes
