@@ -1,3 +1,9 @@
+## [2.7.0-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.7.0-dev.1...v2.7.0-dev.2) (2026-06-17)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide suggested content:** Hide suggested stories ([#171](https://github.com/brosssh/morphe-patches/issues/171)) ([b94ecb3](https://github.com/brosssh/morphe-patches/commit/b94ecb3a250fc3b23755177f05bb2650cf2578f9))
+
 ## [2.7.0-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.4-dev.2...v2.7.0-dev.1) (2026-06-15)
 
 ### ✨ New Features
