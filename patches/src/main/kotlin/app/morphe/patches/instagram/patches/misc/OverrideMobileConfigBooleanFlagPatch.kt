@@ -8,12 +8,12 @@ package app.morphe.patches.instagram.patches.misc
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
 import app.morphe.patcher.literal
 import app.morphe.patcher.opcode
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.Constants.COMPATIBILITY_INSTAGRAM
 import app.morphe.patches.instagram.patches.extension.instagramExtensionPatch
-import app.morphe.util.cloneMutable
 import app.morphe.util.cloneMutableAndPreserveParameters
 import app.morphe.util.indexOfFirstInstructionOrThrow
 import com.android.tools.smali.dexlib2.AccessFlags
@@ -54,7 +54,7 @@ private val overrideMobileConfigBooleanFlagPatch = bytecodePatch {
     execute {
         val getUniversalIdMethod = GetUniversalIdFingerprint.method
 
-        GetBoolValueForFlagFingerprint.method.cloneMutableAndPreserveParameters().addInstructions(
+        GetBoolValueForFlagFingerprint.method.cloneMutableAndPreserveParameters().addInstructionsWithLabels(
             0,
             """
                 invoke-static {p2, p3}, ${getUniversalIdMethod.definingClass}->${getUniversalIdMethod.name}(J)I
@@ -81,9 +81,6 @@ private val overrideMobileConfigBooleanFlagPatch = bytecodePatch {
                 nop 
                 """
         )
-
-        // Expands the override registers count to allow the override patch to write in it
-        GetOverridesFingerprint.method.cloneMutable(additionalRegisters = 3)
     }
 }
 
