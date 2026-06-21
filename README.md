@@ -8,9 +8,9 @@ This repository contains patches I made for some apps I care about.
 ## ⚙️ Patch Details
 
 <!-- PATCHES_START -->
-> **[v2.6.3](https://github.com/brosssh/morphe-patches/releases/tag/v2.6.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;21 patches total
+> **[v2.7.0-dev.4](https://github.com/brosssh/morphe-patches/releases/tag/v2.7.0-dev.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;22 patches total
 <details>
-<summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;17 patches</summary>
+<summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;18 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -21,6 +21,8 @@ This repository contains patches I made for some apps I care about.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Bypass signature check](#bypass-signature-check) | None |  |
+| [Clone](#clone) | Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app.
+Caution: Do not select the official Morphe's "Change package name" universal patch. | • Package name<br>• App name |
 | [Disable Reels scrolling](#disable-reels-scrolling) | Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds. |  |
 | [Disable story auto flipping](#disable-story-auto-flipping) | Disable stories automatically flipping/skipping after some seconds. |  |
 | [Disable video autoplay](#disable-video-autoplay) | Disable video autoplay from feed |  |
@@ -34,7 +36,7 @@ This repository contains patches I made for some apps I care about.
 | [Hide navigation buttons](#hide-navigation-buttons) | Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options. | • Hide Home<br>• Hide Reels<br>• Hide Direct<br>• Hide Search<br>• Hide Profile<br>• Hide Create |
 | [Hide notes tray](#hide-notes-tray) | Hides the notes tray from the direct tab. |  |
 | [Hide reshare button](#hide-reshare-button) | Hides the reshare button from both posts and reels. |  |
-| [Hide suggested content](#hide-suggested-content) | Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown). |  |
+| [Hide suggested content](#hide-suggested-content) | Choose the suggested content to hide using the patch options. | • Hide suggested reels<br>• Hide suggested stories |
 | [Limit feed to following profiles](#limit-feed-to-following-profiles) | Filters the home feed to display only content from profiles you follow. |  |
 | [Remove build expired popup](#remove-build-expired-popup) | Removes the popup that appears after a while, when the app version ages. |  |
 

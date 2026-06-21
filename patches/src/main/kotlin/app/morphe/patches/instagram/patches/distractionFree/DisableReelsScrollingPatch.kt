@@ -4,6 +4,7 @@ import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.Constants.COMPATIBILITY_INSTAGRAM
+import app.morphe.patches.instagram.misc.overrideMobileConfigBooleanFlag
 import app.morphe.util.returnEarly
 
 private object ClipsViewPagerImplGetViewAtIndexFingerprint : Fingerprint(
@@ -23,6 +24,13 @@ val disableReelsScrollingPatch = bytecodePatch(
     default = true
 ) {
     compatibleWith(COMPATIBILITY_INSTAGRAM)
+
+    dependsOn(
+        // Remove the "auto scroll" option from the 3 dots menu in reels
+        overrideMobileConfigBooleanFlag(
+            override = "83371::0" to false // ig_reels_android_hands_free_mode::enabled
+        )
+    )
 
     execute {
         val viewPagerField = ClipsViewPagerImplGetViewAtIndexFingerprint.classDef.fields.first {

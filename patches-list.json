@@ -1,5 +1,5 @@
 {
-  "version": "2.6.3",
+  "version": "2.7.0-dev.4",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -27,10 +27,58 @@
       "options": []
     },
     {
+      "name": "Clone",
+      "description": "Changes the package name and the app name. This allows you to install the patched app alongside the original Instagram app.\nCaution: Do not select the official Morphe's \"Change package name\" universal patch.",
+      "default": false,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.instagram.android",
+          "name": "Instagram",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "430.0.0.53.80",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "packageName",
+          "title": "Package name",
+          "description": "A new package name for the patched app.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "com.instagram.android.brosssh",
+          "values": null
+        },
+        {
+          "key": "appName",
+          "title": "App name",
+          "description": "A new app name (label). Entering \"Instagram\" will skip changing the app name.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "Instagram Distraction Free",
+          "values": null
+        }
+      ]
+    },
+    {
       "name": "Disable Reels scrolling",
       "description": "Disables the endless scrolling behavior in Instagram Reels, preventing swiping to the next Reel. Note: On a clean install, the 'Tip' animation may appear but will stop on its own after a few seconds.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.instagram.android",
@@ -419,10 +467,9 @@
     },
     {
       "name": "Hide suggested content",
-      "description": "Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown).",
+      "description": "Choose the suggested content to hide using the patch options.",
       "default": true,
       "dependencies": [
-        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -443,7 +490,26 @@
           ]
         }
       ],
-      "options": []
+      "options": [
+        {
+          "key": "hideSuggestedReels",
+          "title": "Hide suggested reels",
+          "description": "Hides suggested reels from feed and reels tab.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "hideSuggestedStories",
+          "title": "Hide suggested stories",
+          "description": "Hides suggested stories/users from story tray.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        }
+      ]
     },
     {
       "name": "Limit feed to following profiles",

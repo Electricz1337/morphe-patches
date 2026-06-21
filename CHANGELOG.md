@@ -1,3 +1,39 @@
+## [2.7.0-dev.4](https://github.com/brosssh/morphe-patches/compare/v2.7.0-dev.3...v2.7.0-dev.4) (2026-06-21)
+
+### 🔧 Improvements
+
+* **Instagram - Hide suggested content:** Refactor patch to use patch options ([#178](https://github.com/brosssh/morphe-patches/issues/178)) ([fe68d8e](https://github.com/brosssh/morphe-patches/commit/fe68d8e5bf5678cc6d20e49df2f2c1e0aa6caee2))
+
+## [2.7.0-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.7.0-dev.2...v2.7.0-dev.3) (2026-06-20)
+
+### 🔧 Improvements
+
+* **Instagram:** Use Instagram Morphe patches library ([#176](https://github.com/brosssh/morphe-patches/issues/176)) ([a26d0ba](https://github.com/brosssh/morphe-patches/commit/a26d0baf0c266d7f6b7900e5c73f52394540f2bd))
+
+## [2.7.0-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.7.0-dev.1...v2.7.0-dev.2) (2026-06-17)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide suggested content:** Hide suggested stories ([#171](https://github.com/brosssh/morphe-patches/issues/171)) ([b94ecb3](https://github.com/brosssh/morphe-patches/commit/b94ecb3a250fc3b23755177f05bb2650cf2578f9))
+
+## [2.7.0-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.4-dev.2...v2.7.0-dev.1) (2026-06-15)
+
+### ✨ New Features
+
+* **Instagram:** Add `Clone` patch ([74348b6](https://github.com/brosssh/morphe-patches/commit/74348b63c941a7652040cd75880a9bdc23e0e85b))
+
+## [2.6.4-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.6.4-dev.1...v2.6.4-dev.2) (2026-06-15)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Disable Reels scrolling:** Hide the "auto scroll" option from 3 dots menu in reels ([0943542](https://github.com/brosssh/morphe-patches/commit/0943542ad54a246657f998985df6a181d28b735f))
+
+## [2.6.4-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.6.3...v2.6.4-dev.1) (2026-06-09)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide navigation buttons:** Clone the list to prevent crashes on tablets ([#167](https://github.com/brosssh/morphe-patches/issues/167)) ([27cc95b](https://github.com/brosssh/morphe-patches/commit/27cc95b04b162d0df3b5722542f9fd095f42fd9d))
+
 ## [2.6.3](https://github.com/brosssh/morphe-patches/compare/v2.6.2...v2.6.3) (2026-06-03)
 
 ### 🐛 Bug Fixes
