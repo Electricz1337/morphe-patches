@@ -1,3 +1,9 @@
+## [2.7.0-dev.4](https://github.com/brosssh/morphe-patches/compare/v2.7.0-dev.3...v2.7.0-dev.4) (2026-06-21)
+
+### 🔧 Improvements
+
+* **Instagram - Hide suggested content:** Refactor patch to use patch options ([#178](https://github.com/brosssh/morphe-patches/issues/178)) ([fe68d8e](https://github.com/brosssh/morphe-patches/commit/fe68d8e5bf5678cc6d20e49df2f2c1e0aa6caee2))
+
 ## [2.7.0-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.7.0-dev.2...v2.7.0-dev.3) (2026-06-20)
 
 ### 🔧 Improvements

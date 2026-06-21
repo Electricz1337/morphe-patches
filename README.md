@@ -8,7 +8,7 @@ This repository contains patches I made for some apps I care about.
 ## ⚙️ Patch Details
 
 <!-- PATCHES_START -->
-> **[v2.7.0-dev.3](https://github.com/brosssh/morphe-patches/releases/tag/v2.7.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;22 patches total
+> **[v2.7.0-dev.4](https://github.com/brosssh/morphe-patches/releases/tag/v2.7.0-dev.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;22 patches total
 <details>
 <summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;18 patches</summary>
 <br>
@@ -36,7 +36,7 @@ Caution: Do not select the official Morphe's "Change package name" universal pat
 | [Hide navigation buttons](#hide-navigation-buttons) | Hides navigation bar buttons, such as the Reels and Create button. Choose what button to hide using the patch options. | • Hide Home<br>• Hide Reels<br>• Hide Direct<br>• Hide Search<br>• Hide Profile<br>• Hide Create |
 | [Hide notes tray](#hide-notes-tray) | Hides the notes tray from the direct tab. |  |
 | [Hide reshare button](#hide-reshare-button) | Hides the reshare button from both posts and reels. |  |
-| [Hide suggested content](#hide-suggested-content) | Hides suggested stories, reels, threads and survey from feed (Suggested posts will still be shown). |  |
+| [Hide suggested content](#hide-suggested-content) | Choose the suggested content to hide using the patch options. | • Hide suggested reels<br>• Hide suggested stories |
 | [Limit feed to following profiles](#limit-feed-to-following-profiles) | Filters the home feed to display only content from profiles you follow. |  |
 | [Remove build expired popup](#remove-build-expired-popup) | Removes the popup that appears after a while, when the app version ages. |  |
 
