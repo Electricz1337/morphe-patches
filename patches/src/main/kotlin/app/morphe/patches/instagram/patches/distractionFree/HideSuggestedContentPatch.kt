@@ -27,16 +27,32 @@ val hideSuggestedContentPatch = bytecodePatch(
         description = "Hides suggested stories/users from story tray."
     )
 
+    val hideHighlightStories by booleanOption(
+        key = "hideHighlightStories",
+        default = true,
+        title = "Hide highlights in stories",
+        description = "Hides highlighted stories from story tray, sponsored stories which have no set expiration."
+    )
+
     dependsOn(
         overrideMobileConfigBooleanFlag(
             // Hides suggestions in search box
             override = "111509::3" to false // ig_search_ta_nullstate_suggestions::is_android_enabled
-        )
+        ),
+        filterStoriesListPatch
     )
 
     execute {
         if (hideSuggestedReels == true) hideSuggestedReelsPatch()
 
-        if (hideSuggestedStories == true) hideSuggestedStoriesPatch()
+        if (hideSuggestedStories == true) filterStories(
+            "suggested_user_reel",
+            "suggested_user",
+            "suggested_creator_reel"
+        )
+
+        if (hideHighlightStories == true) filterStories(
+            "highlight_rewind_reel"
+        )
     }
 }

@@ -1,20 +1,26 @@
-package app.morphe.extension.instagram.hide.suggestedContent;
+package app.morphe.extension.instagram.hide.stories;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import app.morphe.extension.shared.Logger;
 
 @SuppressWarnings("unused")
-public class HideSuggestedStoriesPatch {
+public class FilterStoriesListPatch {
 
-    private static final List<String> BLOCKED_STORY_TYPES = List.of(
-            "suggested_user_reel",
-            "suggested_user",
-            "ads_reel"
-    );
+    private static final Set<String> BLOCKED_STORY_TYPES;
+
+    // Populated at patch time
+    // The BOGUS key is there just to expand the static clinit registers count
+    static {
+        BLOCKED_STORY_TYPES = new HashSet<>();
+
+        BLOCKED_STORY_TYPES.add("BOGUS");
+    }
 
     /**
      * Injection point.
