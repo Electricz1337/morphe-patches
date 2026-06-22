@@ -1,3 +1,9 @@
+## [2.8.0-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.7.0...v2.8.0-dev.1) (2026-06-22)
+
+### ✨ New Features
+
+* **Instagram - Hide suggested content:** Add option to hide highlights in stories ([5a31df3](https://github.com/brosssh/morphe-patches/commit/5a31df3a83e5ef86d38b906bceb9d05cf0f01936))
+
 ## [2.7.0](https://github.com/brosssh/morphe-patches/compare/v2.6.3...v2.7.0) (2026-06-21)
 
 ### 🐛 Bug Fixes

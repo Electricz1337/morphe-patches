@@ -1,5 +1,6 @@
 {
-  "version": "2.7.0",
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "2.8.0-dev.1",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -17,6 +18,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -44,6 +49,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -90,6 +99,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -115,6 +128,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -140,6 +157,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -168,6 +189,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -195,6 +220,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -220,6 +249,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -247,6 +280,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -274,6 +311,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -299,6 +340,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -324,6 +369,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -351,6 +400,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -431,6 +484,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -456,6 +513,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -470,6 +531,7 @@
       "description": "Choose the suggested content to hide using the patch options.",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -483,6 +545,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -508,6 +574,15 @@
           "type": "kotlin.Boolean",
           "default": true,
           "values": null
+        },
+        {
+          "key": "hideHighlightStories",
+          "title": "Hide highlights in stories",
+          "description": "Hides highlighted stories from story tray, sponsored stories which have no set expiration.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
         }
       ]
     },
@@ -529,6 +604,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -554,6 +633,10 @@
           "targets": [
             {
               "version": "430.0.0.53.80",
+              "versionCodes": {
+                "ARM64_V8A": 383611190,
+                "ARMEABI_V7A": 383710475
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -579,6 +662,7 @@
           "targets": [
             {
               "version": "3.9.2",
+              "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -604,6 +688,7 @@
           "targets": [
             {
               "version": "2025.38.2",
+              "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -629,6 +714,7 @@
           "targets": [
             {
               "version": "7.1.11",
+              "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -654,6 +740,7 @@
           "targets": [
             {
               "version": "26.5.0",
+              "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
