@@ -1,3 +1,9 @@
+## [2.8.0-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.8.0-dev.1...v2.8.0-dev.2) (2026-06-23)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide all stories:** Do not hide users highlights ([0712c43](https://github.com/brosssh/morphe-patches/commit/0712c4319b94777b30fcfaf531c4a42b62adfc5f))
+
 ## [2.8.0-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.7.0...v2.8.0-dev.1) (2026-06-22)
 
 ### ✨ New Features
