@@ -45,14 +45,8 @@ val hideSuggestedContentPatch = bytecodePatch(
     execute {
         if (hideSuggestedReels == true) hideSuggestedReelsPatch()
 
-        if (hideSuggestedStories == true) filterStories(
-            "suggested_user_reel",
-            "suggested_user",
-            "suggested_creator_reel"
-        )
+        if (hideSuggestedStories == true) filterSuggestedStories()
 
-        if (hideHighlightStories == true) filterStories(
-            "highlight_rewind_reel"
-        )
+        if (hideHighlightStories == true) filterHighlightedStories()
     }
 }
