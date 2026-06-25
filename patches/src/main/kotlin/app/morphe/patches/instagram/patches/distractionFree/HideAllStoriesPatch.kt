@@ -1,5 +1,6 @@
 package app.morphe.patches.instagram.patches.distractionFree
 
+import app.morphe.library.instagram.patches.filterStoriesListPatch
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.Constants.COMPATIBILITY_INSTAGRAM
 
