@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "2.8.0-dev.2",
+  "version": "2.8.0-dev.3",
   "patches": [
     {
       "name": "Bypass signature check",
@@ -534,6 +534,7 @@
       "default": true,
       "dependencies": [
         "BytecodePatch",
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -581,6 +582,15 @@
           "key": "hideHighlightStories",
           "title": "Hide highlights in stories",
           "description": "Hides highlighted stories from story tray, sponsored stories which have no set expiration.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "hideSuggestedAccount",
+          "title": "Hide suggested accounts",
+          "description": "Hides suggested accounts from the list of followers and from other profiles.",
           "required": false,
           "type": "kotlin.Boolean",
           "default": true,
