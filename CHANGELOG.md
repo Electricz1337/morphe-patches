@@ -1,3 +1,9 @@
+## [2.8.1-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.8.1-dev.1...v2.8.1-dev.2) (2026-06-25)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide all stories:** Correct patch description ([fe642df](https://github.com/brosssh/morphe-patches/commit/fe642df2b33c48999ed12b0e3a24273138f9a216))
+
 ## [2.8.1-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.8.0...v2.8.1-dev.1) (2026-06-25)
 
 ### 🚀 Updated App Support
