@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-06-25T19:59:47",
-  "description": "## [2.8.0](https://github.com/brosssh/morphe-patches/compare/v2.7.0...v2.8.0) (2026-06-25)\n\n### 🐛 Bug Fixes\n\n* **Instagram - Hide all stories:** Do not hide users highlights ([0712c43](https://github.com/brosssh/morphe-patches/commit/0712c4319b94777b30fcfaf531c4a42b62adfc5f))\n\n### ✨ New Features\n\n* **Instagram - Hide suggested content:** Add option to hide highlights in stories ([5a31df3](https://github.com/brosssh/morphe-patches/commit/5a31df3a83e5ef86d38b906bceb9d05cf0f01936))\n* **Instagram - Hide suggested content:** Add option to hide suggested accounts ([8d0593c](https://github.com/brosssh/morphe-patches/commit/8d0593c03ce3ed6006774dda8f901133604302c0))",
-  "download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.8.0/patches-2.8.0.mpp",
-  "signature_download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.8.0/patches-2.8.0.mpp.asc",
-  "version": "2.8.0"
+  "created_at": "2026-06-25T20:04:29",
+  "description": "## [2.8.1-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.8.0...v2.8.1-dev.1) (2026-06-25)\n\n### 🚀 Updated App Support\n\n* **Instagram:** Update support to `435.0.0.37.76` ([#184](https://github.com/brosssh/morphe-patches/issues/184)) ([638e5ed](https://github.com/brosssh/morphe-patches/commit/638e5edc7a069b0b9656392a2d6a1e3a5828f36e))",
+  "download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.8.1-dev.1/patches-2.8.1-dev.1.mpp",
+  "signature_download_url": "https://github.com/brosssh/morphe-patches/releases/download/v2.8.1-dev.1/patches-2.8.1-dev.1.mpp.asc",
+  "version": "2.8.1-dev.1"
 }

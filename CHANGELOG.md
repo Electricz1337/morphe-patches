@@ -1,3 +1,9 @@
+## [2.8.1-dev.1](https://github.com/brosssh/morphe-patches/compare/v2.8.0...v2.8.1-dev.1) (2026-06-25)
+
+### 🚀 Updated App Support
+
+* **Instagram:** Update support to `435.0.0.37.76` ([#184](https://github.com/brosssh/morphe-patches/issues/184)) ([638e5ed](https://github.com/brosssh/morphe-patches/commit/638e5edc7a069b0b9656392a2d6a1e3a5828f36e))
+
 ## [2.8.0](https://github.com/brosssh/morphe-patches/compare/v2.7.0...v2.8.0) (2026-06-25)
 
 ### 🐛 Bug Fixes

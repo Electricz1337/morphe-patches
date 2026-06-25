@@ -8,14 +8,14 @@ This repository contains patches I made for some apps I care about.
 ## ⚙️ Patch Details
 
 <!-- PATCHES_START -->
-> **[v2.8.0](https://github.com/brosssh/morphe-patches/releases/tag/v2.8.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;22 patches total
+> **[v2.8.1-dev.1](https://github.com/brosssh/morphe-patches/releases/tag/v2.8.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;22 patches total
 <details>
 <summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;18 patches</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 430.0.0.53.80 |
+| 435.0.0.37.76 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
