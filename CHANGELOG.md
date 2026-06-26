@@ -1,3 +1,9 @@
+## [2.8.1-dev.4](https://github.com/brosssh/morphe-patches/compare/v2.8.1-dev.3...v2.8.1-dev.4) (2026-06-26)
+
+### 🐛 Bug Fixes
+
+* **Instagram - Hide suggested content:** Rollback previous commit ([9a12b01](https://github.com/brosssh/morphe-patches/commit/9a12b011f17d12d3015db34ba95284bd857cabe0))
+
 ## [2.8.1-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.8.1-dev.2...v2.8.1-dev.3) (2026-06-26)
 
 ### 🔧 Improvements
