@@ -1,3 +1,9 @@
+## [2.8.1-dev.3](https://github.com/brosssh/morphe-patches/compare/v2.8.1-dev.2...v2.8.1-dev.3) (2026-06-26)
+
+### 🔧 Improvements
+
+* **Instagram - Hide suggested content:** Hides suggested account from more places ([217bec1](https://github.com/brosssh/morphe-patches/commit/217bec106b00ef7d893827f9475d515af8a26881))
+
 ## [2.8.1-dev.2](https://github.com/brosssh/morphe-patches/compare/v2.8.1-dev.1...v2.8.1-dev.2) (2026-06-25)
 
 ### 🐛 Bug Fixes
