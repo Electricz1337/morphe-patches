@@ -62,8 +62,7 @@ val hideSuggestedContentPatch = bytecodePatch(
 
         if (hideSuggestedAccount == true) blockUrl(
             "/discover/ayml",
-            "/discover/chaining",
-            "/discover/surface_with_su"
+            "/discover/chaining"
         )
     }
 }
