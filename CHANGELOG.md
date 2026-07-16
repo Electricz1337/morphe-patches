@@ -1,3 +1,9 @@
+## [2.8.1-dev.5](https://github.com/brosssh/morphe-patches/compare/v2.8.1-dev.4...v2.8.1-dev.5) (2026-07-16)
+
+### 🚀 Updated App Support
+
+* **Komoot:** Update support to `2026.26.7` ([#191](https://github.com/brosssh/morphe-patches/issues/191)) ([0f5d3c5](https://github.com/brosssh/morphe-patches/commit/0f5d3c5f4c20b40d4f23dd97f89b7a64a9426050))
+
 ## [2.8.1-dev.4](https://github.com/brosssh/morphe-patches/compare/v2.8.1-dev.3...v2.8.1-dev.4) (2026-06-26)
 
 ### 🐛 Bug Fixes
